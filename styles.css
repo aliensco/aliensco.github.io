@@ -109,13 +109,26 @@ h1 {
   letter-spacing: -.025em;
 }
 
-.native-name {
+.name-alias {
   margin: 20px 0 -16px;
   color: var(--accent);
-  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: .18em;
+  letter-spacing: .08em;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.name-alias span {
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  letter-spacing: .15em;
+}
+
+.name-alias i {
+  width: 18px;
+  height: 1px;
+  background: var(--line);
 }
 
 .intro {
@@ -224,6 +237,15 @@ h2 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.35rem, 2.6vw, 2rem);
   line-height: 1.4;
+}
+
+.about-copy > .research-statement {
+  max-width: 680px;
+  margin-top: -24px;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 1.02rem;
+  line-height: 1.75;
 }
 
 .facts { margin: 0; }
