@@ -248,6 +248,12 @@ h2 {
   line-height: 1.75;
 }
 
+.about-copy > .math-statement {
+  margin-top: 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
 .facts { margin: 0; }
 .facts div {
   padding: 18px 0;
