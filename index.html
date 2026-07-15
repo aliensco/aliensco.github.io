@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Don Lee — researcher and developer at Sun Yat-sen University.">
+  <meta name="author" content="Don Lee">
+  <meta property="og:title" content="Don Lee">
+  <meta property="og:description" content="Researcher and developer at Sun Yat-sen University.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://github.com/aliensco.png">
+  <title>Don Lee</title>
+  <link rel="preconnect" href="https://github.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Don Lee, home">DL<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-github" href="https://github.com/aliensco" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I’m</p>
+        <h1 id="hero-title">Don Lee<span class="accent">.</span></h1>
+        <p class="native-name" lang="zh-CN">李雨翰</p>
+        <p class="role">AI Researcher &amp; Developer</p>
+        <p class="intro">
+          I am an undergraduate at <strong>Sun Yat-sen University</strong> in Shenzhen,
+          studying Intelligent Science and Technology with a minor in Mathematics and
+          Applied Mathematics. My research interests include multimodal models, embodied
+          intelligence, and causal video world models.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:liyh693@mail2.sysu.edu.cn">Get in touch</a>
+          <a class="button button-secondary" href="https://github.com/aliensco" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+      </div>
+
+      <div class="portrait-wrap" aria-hidden="true">
+        <div class="portrait-backdrop"></div>
+        <img class="portrait" src="https://github.com/aliensco.png" alt="" width="360" height="360">
+        <span class="status"><i></i> Shenzhen, China</span>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="section-number">01</p>
+        <h2 id="about-title">About</h2>
+      </div>
+      <div class="about-copy">
+        <p>
+          I work at the intersection of AI research and software development, with a focus
+          on understanding how intelligent systems perceive, reason about, and model the
+          physical world.
+        </p>
+        <dl class="facts">
+          <div>
+            <dt>Affiliation</dt>
+            <dd>School of Intelligent Systems Engineering, Sun Yat-sen University</dd>
+          </div>
+          <div>
+            <dt>Location</dt>
+            <dd>Shenzhen, China</dd>
+          </div>
+          <div>
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/aliensco" target="_blank" rel="noreferrer">@aliensco</a></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="projects-heading">
+        <div>
+          <p class="section-number">02</p>
+          <h2 id="projects-title">Selected work</h2>
+        </div>
+        <p>Research and engineering projects that explore intelligent systems in the real world.</p>
+      </div>
+
+      <article class="project-card">
+        <div class="project-meta">
+          <span>Research &amp; engineering</span>
+          <span>Ongoing</span>
+        </div>
+        <div class="project-body">
+          <div>
+            <p class="project-index">01</p>
+            <h3>T2K</h3>
+            <p class="project-subtitle">Thread-to-Knowledge</p>
+          </div>
+          <div class="project-description">
+            <p>
+              Designing a knowledge production engine that transforms community threads,
+              reviews, products, services, and web content into structured, verifiable knowledge
+              for the Yeegoods campus platform.
+            </p>
+            <p>
+              T2K extracts atomic claims and their evidence spans, normalizes entities, aspects,
+              time, and conditions, and identifies support, conflict, update, and similarity
+              relations. Human review, provenance tracking, and graph verification keep downstream
+              retrieval and question answering grounded in traceable evidence.
+            </p>
+            <ul class="project-tags" aria-label="Project topics">
+              <li>Knowledge Graphs</li>
+              <li>Trustworthy RAG</li>
+              <li>Graph Reasoning</li>
+              <li>Natural Language Processing</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card-light">
+        <div class="project-meta">
+          <span>Ongoing research</span>
+          <span>2025 — Present</span>
+        </div>
+        <div class="project-body">
+          <div>
+            <p class="project-index">02</p>
+            <h3 class="project-title-long">Everyday<wbr>Bifurcation<wbr>Bench</h3>
+            <p class="project-subtitle">Physical World Modeling Benchmark</p>
+          </div>
+          <div class="project-description">
+            <p>
+              Leading the development of a benchmark for evaluating whether video generation
+              models can understand and reproduce physical causality in realistic everyday scenes.
+            </p>
+            <p>
+              The project builds controllable, paired counterfactual scenarios around six physical
+              mechanisms—including sliding, toppling, support failure, passage constraints, edge
+              falling, and collision propagation—and diagnoses where a model first departs from a
+              valid causal event chain.
+            </p>
+            <ul class="project-tags" aria-label="Project topics">
+              <li>World Models</li>
+              <li>Physical Reasoning</li>
+              <li>Video Generation</li>
+              <li>Simulation-to-Real</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p class="section-number">03</p>
+      <h2 id="contact-title">Let’s connect.</h2>
+      <p>For research conversations, collaboration, or a simple hello, feel free to email me.</p>
+      <a class="email-link" href="mailto:liyh693@mail2.sysu.edu.cn">liyh693@mail2.sysu.edu.cn <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> Don Lee</p>
+    <p>Built with care · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
